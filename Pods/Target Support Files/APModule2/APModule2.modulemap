@@ -1,0 +1,6 @@
+framework module APModule2 {
+  umbrella header "APModule2-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - APModule2 (0.0.5)
+  - Module1 (0.1.9):
+    - AFNetworking
+    - APModule2
+
+DEPENDENCIES:
+  - Module1
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+  https://github.com/iosApem/APRepo.git:
+    - APModule2
+    - Module1
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  APModule2: df4b65a590f0c100856891f4b6ca921c2eab646a
+  Module1: edfe669e7d169edc508be5178ccfdbca0fca49a7
+
+PODFILE CHECKSUM: 53d4c4b512f40a8d79cf5b768344a9575da01869
+
+COCOAPODS: 1.5.3
