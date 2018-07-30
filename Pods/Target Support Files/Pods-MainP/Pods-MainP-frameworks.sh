@@ -146,12 +146,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/APModule2/APModule2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/APModule3/APModule3.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/APSVNModule/APSVNModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Module1/Module1.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/APModule2/APModule2.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/APModule3/APModule3.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/APSVNModule/APSVNModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Module1/Module1.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

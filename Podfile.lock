@@ -15,13 +15,15 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - APModule2 (0.0.5)
-  - APModule3 (0.0.5)
+  - APModule3 (0.0.6)
+  - APSVNModule (0.0.3)
   - Module1 (0.1.9):
     - AFNetworking
     - APModule2
 
 DEPENDENCIES:
   - APModule3
+  - APSVNModule
   - Module1
 
 SPEC REPOS:
@@ -30,14 +32,16 @@ SPEC REPOS:
   https://github.com/iosApem/APRepo.git:
     - APModule2
     - APModule3
+    - APSVNModule
     - Module1
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   APModule2: df4b65a590f0c100856891f4b6ca921c2eab646a
-  APModule3: bbd6d17f0d6fd4172c90422f209f770c363f8b80
+  APModule3: c089061f9d95725f75759da0f1cf705d0bdc73ef
+  APSVNModule: 5e23ba5ebc4c22c12a04e9af1afc897930375ec1
   Module1: edfe669e7d169edc508be5178ccfdbca0fca49a7
 
-PODFILE CHECKSUM: f8a5cdfc12530267f0fe7e48a8ecf47993128303
+PODFILE CHECKSUM: e74e34ae97147662388e9683d46a28fbec856ab5
 
 COCOAPODS: 1.5.3

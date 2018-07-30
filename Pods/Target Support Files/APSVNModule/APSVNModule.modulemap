@@ -1,0 +1,6 @@
+framework module APSVNModule {
+  umbrella header "APSVNModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

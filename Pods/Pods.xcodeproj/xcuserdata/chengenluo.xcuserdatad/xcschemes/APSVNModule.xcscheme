@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D78EDACE71E41799E996F3203E724122"
-               BlueprintName = "APModule3"
+               BlueprintIdentifier = "CE1177670E3B7FB2275B8FCFF4D0B206"
+               BlueprintName = "APSVNModule"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "APModule3.framework">
+               BuildableName = "APSVNModule.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
