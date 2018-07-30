@@ -234,12 +234,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-MainP/Pods-MainP-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/APModule2/APModule2.framework",
+				"${BUILT_PRODUCTS_DIR}/APModule3/APModule3.framework",
 				"${BUILT_PRODUCTS_DIR}/Module1/Module1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APModule2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APModule3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Module1.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
