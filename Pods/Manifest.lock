@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - APModule2 (0.0.5)
+  - APModule2 (0.0.7)
   - APModule3 (0.0.6)
   - APSVNModule (0.0.3)
   - Module1 (0.1.9):
@@ -37,7 +37,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  APModule2: df4b65a590f0c100856891f4b6ca921c2eab646a
+  APModule2: 86b3295ca8233b98e47b2ed8b848ea8849b4967e
   APModule3: c089061f9d95725f75759da0f1cf705d0bdc73ef
   APSVNModule: 5e23ba5ebc4c22c12a04e9af1afc897930375ec1
   Module1: edfe669e7d169edc508be5178ccfdbca0fca49a7

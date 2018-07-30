@@ -1,0 +1,6 @@
+framework module HbbTool {
+  umbrella header "HbbTool.h"
+
+  export *
+  module * { export * }
+}
