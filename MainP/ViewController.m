@@ -12,6 +12,8 @@
 #import <AFNetworking/AFNetworking.h>
 #import <APModule3/Module3VC.h>
 #import <APSVNModule/SVNVC.h>
+#import <APModule2/WorkVC.h>
+//#import <MyLib.h>
 
 @interface ViewController ()
 
@@ -33,8 +35,13 @@
 {
     [super viewDidAppear:animated];
     
-    LoginVC *vc = [[LoginVC alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
+//    [[[MyLib alloc] init] go];
+    
+//    MYVC *myvc = [[MYVC alloc] init];
+//    [self.navigationController pushViewController:myvc animated:YES];
+    
+//    LoginVC *vc = [[LoginVC alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
     
 //    Class cls = [Module3VC class];
 //    NSBundle *bdl = [NSBundle bundleForClass:cls];
@@ -43,11 +50,11 @@
 //    [self.navigationController presentViewController:module3_vc animated:YES completion:nil];
     
     
-    Class svn_cls = [SVNVC class];
-    NSBundle *svn_bdl = [NSBundle bundleForClass:svn_cls];
-    NSString *svn_classname = NSStringFromClass(svn_cls);
-    UIViewController *svn_vc = [[SVNVC alloc] initWithNibName:svn_classname bundle:svn_bdl];
-    [self.navigationController presentViewController:svn_vc animated:YES completion:nil];
+//    Class svn_cls = [SVNVC class];
+//    NSBundle *svn_bdl = [NSBundle bundleForClass:svn_cls];
+//    NSString *svn_classname = NSStringFromClass(svn_cls);
+//    UIViewController *svn_vc = [[SVNVC alloc] initWithNibName:svn_classname bundle:svn_bdl];
+//    [self.navigationController presentViewController:svn_vc animated:YES completion:nil];
     
 }
 

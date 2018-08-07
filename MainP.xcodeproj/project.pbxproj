@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB3F127679DD603D2EA8675 /* Pods_MainP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74092ACBC72E36B2F795AC76 /* Pods_MainP.framework */; };
 		D234DA3B20EB6AC7001A7A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA3A20EB6AC7001A7A28 /* AppDelegate.m */; };
 		D234DA3E20EB6AC7001A7A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA3D20EB6AC7001A7A28 /* ViewController.m */; };
 		D234DA4120EB6AC7001A7A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234DA3F20EB6AC7001A7A28 /* Main.storyboard */; };
@@ -15,6 +14,10 @@
 		D234DA4620EB6ACA001A7A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D234DA4420EB6ACA001A7A28 /* LaunchScreen.storyboard */; };
 		D234DA4920EB6ACA001A7A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA4820EB6ACA001A7A28 /* main.m */; };
 		D234DA5320EB6ACB001A7A28 /* MainPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D234DA5220EB6ACB001A7A28 /* MainPTests.m */; };
+		D291020B2110624600C9A80B /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D29102092110624600C9A80B /* MainVC.m */; };
+		D291020C2110624600C9A80B /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D291020A2110624600C9A80B /* MainVC.xib */; };
+		D291023A211063E400C9A80B /* APLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D29102312110637F00C9A80B /* APLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D291029521106F0400C9A80B /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D291029421106F0400C9A80B /* libMyLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,20 @@
 			remoteInfo = MainP;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D291023B211063E400C9A80B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D291023A211063E400C9A80B /* APLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5189B60F7A3E6EA5D3ECAFED /* Pods-MainP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainP/Pods-MainP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +61,11 @@
 		D234DA4E20EB6ACB001A7A28 /* MainPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D234DA5220EB6ACB001A7A28 /* MainPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPTests.m; sourceTree = "<group>"; };
 		D234DA5420EB6ACB001A7A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29102082110624600C9A80B /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		D29102092110624600C9A80B /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		D291020A2110624600C9A80B /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		D29102312110637F00C9A80B /* APLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D291029421106F0400C9A80B /* libMyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB3F127679DD603D2EA8675 /* Pods_MainP.framework in Frameworks */,
+				D291029521106F0400C9A80B /* libMyLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,8 @@
 		5638F3100ED706F30DC52EB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D291029421106F0400C9A80B /* libMyLib.a */,
+				D29102312110637F00C9A80B /* APLib.framework */,
 				74092ACBC72E36B2F795AC76 /* Pods_MainP.framework */,
 			);
 			name = Frameworks;
@@ -105,6 +129,9 @@
 				D234DA4420EB6ACA001A7A28 /* LaunchScreen.storyboard */,
 				D234DA4720EB6ACA001A7A28 /* Info.plist */,
 				D234DA4820EB6ACA001A7A28 /* main.m */,
+				D29102082110624600C9A80B /* MainVC.h */,
+				D29102092110624600C9A80B /* MainVC.m */,
+				D291020A2110624600C9A80B /* MainVC.xib */,
 			);
 			path = MainP;
 			sourceTree = "<group>";
@@ -139,6 +166,7 @@
 				D234DA3320EB6AC7001A7A28 /* Frameworks */,
 				D234DA3420EB6AC7001A7A28 /* Resources */,
 				D0D038A4C8322919EA9A52D6 /* [CP] Embed Pods Frameworks */,
+				D291023B211063E400C9A80B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D234DA4620EB6ACA001A7A28 /* LaunchScreen.storyboard in Resources */,
+				D291020C2110624600C9A80B /* MainVC.xib in Resources */,
 				D234DA4320EB6ACA001A7A28 /* Assets.xcassets in Resources */,
 				D234DA4120EB6AC7001A7A28 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D234DA3E20EB6AC7001A7A28 /* ViewController.m in Sources */,
+				D291020B2110624600C9A80B /* MainVC.m in Sources */,
 				D234DA4920EB6ACA001A7A28 /* main.m in Sources */,
 				D234DA3B20EB6AC7001A7A28 /* AppDelegate.m in Sources */,
 			);
@@ -437,6 +467,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FREK3G36V4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/APModule2/Classes",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../MyLib/**";
 				INFOPLIST_FILE = MainP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +490,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FREK3G36V4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/APModule2/Classes",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../MyLib/**";
 				INFOPLIST_FILE = MainP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17B50C4A2BA130F8C1BB52FDBA0806F7"
+               BlueprintIdentifier = "AB6FD9EC5BA69A8EA3F15AC276358312"
                BlueprintName = "APModule2"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "APModule2.framework">
